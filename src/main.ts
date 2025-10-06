@@ -15,7 +15,7 @@ async function renderCharacter() {
     for(let i=0; i<characters.meta.itemCount; i++){
       innerhtml = innerhtml+`
       <div class = "card">
-        <a href="https://vite.dev" target="_blank">
+        <a href=" " target="_blank">
           <img src="${characters.items[i].image}" class="logo" alt="Vite logo" />
         </a>
         <h1>${characters.items[i].name}</h1>
